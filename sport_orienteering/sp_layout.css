@@ -1,0 +1,43 @@
+@charset "utf-8"
+
+body {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1020px;
+	min-width: 640px;
+}
+
+body > header {
+	margin: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+body > nav {
+	width: 20%;
+	float: left;
+	margin: 0 0 0 1.5%;
+}
+
+
+body > aside {
+	width: 20%;
+	float: left;
+	margin: 0 1.5% 0 0;
+}
+
+div.postForm {
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+}
+
+div.back {
+	padding-top: 30px;
+}
+
+body > footer {
+	width: 100%;
+	clear: left;
+}

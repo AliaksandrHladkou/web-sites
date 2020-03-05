@@ -1,0 +1,362 @@
+@charset "utf-8";
+
+/* HTML and Body Styles */
+
+html {
+   	background: url(background.png) center center / cover no-repeat fixed;  
+   	height: 100%;
+   	font-family: Verdana, Geneva, sans-serif;
+   	font-size: 12px;
+}
+
+body {
+   background: Sienna;   
+   box-shadow: rgb(51, 51, 51) 5px 0px 15px,
+               rgb(51, 51, 51) -5px 0px 15px;
+   margin: 0px auto;
+   min-height: 100%;
+   min-width: 320px;
+   max-width: 1024px;
+   width: 100%;
+}
+
+/* Body Header Styles */
+
+body header {
+  	background: rgb(134,176,232);   
+}
+
+body header img {
+  	display: block;
+	height: auto;
+  	width: 100%;
+}
+
+/* Horizonal Navigation Styles */
+
+nav {
+	display: inline-block;
+  	background: linear-gradient(to bottom, maroon 40%, rgb(97, 181, 25));
+  	border-bottom: 1px solid rgb(28, 126, 5);
+   	color: white;
+   	min-height: 1.5em;
+	width: 100%;
+}
+
+
+header nav ul li {
+	float: left;
+	list-style-type: none;
+	text-indent: 15px;
+	margin: 0;	
+   	line-height: 1.5em;
+   	font-size: 1.6em; 
+   	height: 2.3em;
+   	padding: 0px 10px;
+}
+
+
+
+header nav ul li a {
+	text-decoration: none;
+  	color: white;
+  	display: block;
+   	width: 100%;
+}
+
+header nav ul li a:hover {
+   	color: rgb(205, 209, 148);
+}
+
+section article {
+	display: block;
+	float: left;
+	background-color: NavajoWhite;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 0;
+	margin-bottom: 15px;
+	padding: 20px;
+	box-shadow: rgb(51, 51, 51) 5px 0px 15px,
+               rgb(51, 51, 51) -5px 0px 15px;
+}
+
+.wiki {
+	decoration-style: none;
+	
+}
+table {
+	width: 100%;
+	font-size: 1.7em;
+}
+
+tr, td {
+	border: 1px solid black;
+}
+
+div#head {
+	display: inline-block;
+	width: 70%;
+	float: left;
+}
+
+body section article img {
+	width: 20%;
+	float: right;
+}
+
+div.table {
+	display: block;
+	width: 100%;
+}
+
+section article h1 {
+	font-size: 2.3em;
+	font-family: sans-serif;
+}
+
+section article h2 {
+	font-size: 2.3em;
+	font-family: Times, sans-serif;
+}
+
+section article p {
+	float: left;
+	font-size: 1.8em;
+	font-family: "Times New Roman", sans-serif;
+	margin-right: 10px;
+}
+
+section article img {
+	width: 25%;
+}
+
+section article div#about {
+	display: block;
+	width: 70%;
+}
+
+section article div#intro {
+	display: inline-block;
+	float: right;
+	width: 70%;
+}
+
+section article div#types {
+	display: block;
+	clear: left;
+	width: 100%;
+	margin-top: 20px;
+}
+
+
+/* Section Styles */
+
+section {
+   background-color: rgb(210, 220, 170);
+   clear: both;
+}
+
+section::after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+
+div.withdir div.his {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+div.withdir p, div.his p {
+padding-left: 10px;
+	width: 50%;
+	font-size: 1.8em;
+	fon-family: (Times New Roman), Times, sans-serif;
+	clear: right;
+}
+
+div.withdir img, div.night img, div.compass img {
+	display: block;
+	float: left;
+	width: 40%;
+	box-shadow: 10px 10px 5px grey;
+}
+
+div.skiing, div.text {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+div.markers {
+	display: inline-block;
+	
+}
+
+div.markers img{
+	display: inline-block;
+	width: 40%;
+	float: right;
+	box-shadow: 10px 10px 5px grey;
+	margin-right:20px;
+}
+
+div.text p {
+	padding-right: 10px;
+	font-size: 1.8em;
+	fon-family: (Times New Roman), Times, sans-serif;
+	clear: right;
+}
+
+div.skiing p {
+	width: 50%;
+	padding-right: 10px;
+	font-size: 1.8em;
+	fon-family: (Times New Roman), Times, sans-serif;
+	clear: right;
+}
+
+div.skiing img, div.his img{
+	display: block;
+	float: right;
+	width: 40%;
+	box-shadow: 10px 10px 5px grey;
+}
+
+div.night, div.compass {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+div.night p, div.compass p {
+	display: block;
+	width: 50%;
+	padding-left: 20px;
+	font-size: 1.8em;
+	fon-family: (Times New Roman), Times, sans-serif;
+	clear: right;
+}
+
+
+
+body section article div.back a {
+	display:block;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	background-color: DarkKhaki;
+	font-size: 2em;
+	font-family: (Times New Roman), Times, sans-serif;
+	color: white;
+	border-radius: 15px;
+	text-decoration: none;
+}
+
+body section article div a:hover {
+	background-color: GoldenRod;
+	color: ivory;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+div.postForm {
+	display: inline-block;
+	font-size: 1.4em;
+	fon-family: sans-serif;
+	width: 50%;
+	background-color: Wheat;
+	box-shadow: rgb(51, 51, 51) 5px 0px 15px,
+               rgb(51, 51, 51) -5px 0px 15px;
+}
+
+div.postForm input[type=text] {
+
+	padding-bottom: 5px;
+}
+
+div.postForm input[type=submit] {
+	background: ivory;
+	font-size: 1.3em;
+	font-family: Times, serif;
+}
+/* Footer Styles */
+
+body > footer {
+	display: inline-block;
+	background: linear-gradient(to top, maroon 40%, rgb(97, 181, 25));
+   	font-size: 1.5em;
+	color: Moccasin;
+   	padding: 10px 0px;
+
+	-moz-column-gap: 25px;
+   	-webkit-column-gap: 25px;
+    	column-gap: 25px;
+}
+
+body > footer h1 {
+	font-size: 1.5em;
+	color: Moccasin;
+}
+
+div.rights {
+	display: block;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 35%;
+}
+
+body > footer div.contact {
+	display: block;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+body > footer div.updated {
+	display: block;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+
+body footer a {
+	display: block;
+	text-decoration: none;
+	color: ivory;
+}
+
+
+
+
+
+@media only screen and (min-width: 641px) {
+
+   body header nav ul {
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+      -webkit-justify-content: center;
+      justify-content: center;
+   }
+   
+   body header nav ul li {
+      -webkit-flex: 0 1 auto;
+      flex: 0 1 auto;
+   }
+}
+
+
+
+
